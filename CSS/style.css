@@ -1,0 +1,355 @@
+/* Apply font to body */
+body {
+    margin: 0;
+    background-color: #333;
+    color: white;
+    font-family: 'Roboto', sans-serif;  /* Use Roboto for body text */
+}
+
+/* Style the nav container */
+.nav nav {
+    display: flex;                   /* Enable Flexbox */
+    justify-content: space-between;  /* Push items to opposite sides */
+    align-items: flex-start;         /* Align items to the top of the nav container */
+    padding: 10px 20px;              /* Add some padding for spacing */
+    background-color: #000000;       /* Dark background for the nav bar */
+    box-shadow: 0 4px 6px rgba(245, 16, 16, 0.795);
+}
+
+/* Reset margins for nav items */
+.nav p {
+    margin: 0;
+    font-family: 'Playfair Display', serif; /* Use Roboto for navigation items */
+}
+
+/* Style the link */
+.nav a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for the link */
+.nav a:hover {
+    color:rgb(249, 119, 119)
+}
+
+/* Style the splash section */
+.splash {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #333;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    margin: 10px auto;
+}
+
+/* Style the heading with Playfair Display */
+.splash h1 {
+    font-family: 'Playfair Display', serif; /* Use Playfair Display for headings */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Style the image */
+.splash img {
+    border: 7px solid black;
+    border-radius: 10%;
+    box-shadow: 0 4px 10px rgba(245, 16, 16, 0.8);
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Style the contact and bio text */
+.splash p {
+    font-family: 'Playfair Display', serif;/* Use Roboto for paragraphs */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.splash hr, .education hr, .HonorsandAwards hr, .Skills hr {
+    border: 3px solid rgba(245, 16, 16, 0.8);
+    margin-top: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style the education section */
+.education {
+    font-family: 'Playfair Display', serif;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.education h2 {
+    font-family: 'Playfair Display', serif;  /* Use Playfair Display for headings */
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.education p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;  /* Font size for education paragraph */
+    line-height: 1.6;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 8px;
+   
+    
+}
+
+.HonorsandAwards {
+    font-family: 'Playfair Display', serif;
+    height: 200px;
+    padding: 20px, 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    
+    
+}
+.HonorsandAwards h2 {
+    font-family: 'Playfair Display', serif;
+    padding: 20px;
+    font-family:'Times New Roman';
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.HonorsandAwards dl {
+    
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    grid-template-columns: auto auto;  /* Grid layout for definition list */
+    gap: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #444;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: square;  /* Change default list style */
+    padding-left: 20px;
+}
+.Skills {
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); /* Add shadow for separation */
+}
+
+.Skills h2 {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.Skills ul {
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    background-color: #444;
+    margin: 20px;
+    
+}
+
+.Skills ul li {
+    font-family: 'Playfair Display', serif;
+    border-radius: 8px;
+    box-shadow: 0 9px 4px rgba(53, 3, 3, 0.5);
+    padding: 10px;
+    background-color: #444;
+    margin: 20px;
+    border-width: 10px;
+    border-color: #000000;
+    
+}
+.experience {
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+
+}
+.experience h2 {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.experience dl {
+    font-family: 'Playfair Display', serif;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #444;
+    margin: 20px;
+    border-width: 10px;
+    border-color: #000000;
+
+}
+.experience a {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: red;
+}
+.experience a:hover {
+    color:rgb(249, 119, 119)
+}
+.projects h2 {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+
+}
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Create 3 column layout */
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.card {
+    font-family: 'Playfair Display', serif;
+    display: block;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    height: 700px;
+    margin:auto;
+}
+
+.card img {
+    display: block;
+    width: 350px; 
+    height: 250px;
+    margin-bottom: 10px;
+    margin:auto;
+    border-radius: 10px;
+    
+}
+
+.card h3 {
+    display: flex;
+    font-family: 'Times New Roman', serif;  /* Use Times New Roman for project titles */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.card ul {
+    list-style-type: circle;  /* Style for project details list */
+    padding-left: 0;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 -4px 6px rgba(245, 16, 16, 0.795);
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Style the link */
+.footer a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for the link */
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+.contact {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  
+    
+}
+
+.contact h1 {
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.0rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contact p {
+    display: flex;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: white;
+    justify-content: center
+    
+}
+
+/* Form Styling */
+form {
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+form label {
+    font-size: 1.2rem;
+    display: block;
+    margin: 10px 0 5px 0;
+    color: white;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(249, 119, 119);
+}
+
+
